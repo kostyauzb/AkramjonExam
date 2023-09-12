@@ -1,0 +1,92 @@
+.contact__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e7816b;
+    gap: 9.5rem;
+    padding-top: 5.5rem;
+    padding-bottom: 5.4rem;
+    padding-left: 9.5rem;
+    border-radius: 15px;
+  }
+  .left__wrapper {
+    width: 100%;
+    max-width: 445px;
+  }
+  .contact__title {
+    color: #ffffff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 100% */
+    margin-bottom: 3.2rem;
+  }
+  .contact__desc {
+    color: #ffffff;
+  }
+  .login-box {
+    padding-left: 9.6rem;
+    width: 100%;
+    max-width: 380px;
+  }
+  .form-btn {
+    color: #333136;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1.7rem 4.7rem;
+  }  
+  @media screen and (max-width: 768px) {
+    .contact__container {
+      flex-direction: column;
+      gap: 4rem;
+      padding-top: 5.5rem;
+      padding-bottom: 5.4rem;
+      padding-left: 9.5rem;
+      width: 100%;
+      max-width: 573px;
+    }
+    .contact__title {
+      font-size: 4.8rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px; /* 100% */
+      margin-bottom: 3.2rem;
+    }
+    .login-box {
+      padding-left: 0rem;
+      width: 100%;
+      max-width: 380px;
+      margin-left: -7rem;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .contact__container {
+      flex-direction: column;
+      gap: 4rem;
+      padding-top: 5.5rem;
+      padding-bottom: 5.4rem;
+      padding-left: 9.5rem;
+      width: 100%;
+      max-width: 375px;
+      text-align: center;
+    }
+    .contact__title {
+      font-size: 3.2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px; /* 100% */
+      margin-bottom: 3.2rem;
+      text-align: center;
+    }
+    .login-box {
+      padding-left: 0rem;
+      width: 100%;
+      max-width: 320px;
+      margin-left: 5rem;
+    }
+  }

@@ -1,0 +1,27 @@
+.on-light-btn{
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  background: $peach-color;
+  color: $white-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.on-light-btn:hover{
+  background-color: $light-grey-color;
+}
+.on-dark-btn{
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  background: $white-color;
+  color: #333136;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.on-dark-btn:hover{
+  border-radius: 8px;
+  background: $light-peach-color;
+}
